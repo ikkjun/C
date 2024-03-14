@@ -1,10 +1,3 @@
-//
-//  2_2.c
-//  C
-//
-//  Created by Ikjun Cho on 3/14/24.
-//
-
 #include <stdio.h>
 
 int main(void) {
