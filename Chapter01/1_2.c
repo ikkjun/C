@@ -8,7 +8,10 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    printf("안녕하세요.");
+    printf("조익준입니다.");
+    
+    printf("안녕하세요.\n");
+    printf("조익준입니다.");
     return 0;
 }

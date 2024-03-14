@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		029EF3062BA31B25004FD8A8 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 029EF3052BA31B25004FD8A8 /* main.c */; };
+		029EF3062BA31B25004FD8A8 /* 1_2.c in Sources */ = {isa = PBXBuildFile; fileRef = 029EF3052BA31B25004FD8A8 /* 1_2.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,10 @@
 
 /* Begin PBXFileReference section */
 		029EF3022BA31B25004FD8A8 /* C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C; sourceTree = BUILT_PRODUCTS_DIR; };
-		029EF3052BA31B25004FD8A8 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		029EF3052BA31B25004FD8A8 /* 1_2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 1_2.c; sourceTree = "<group>"; };
+		029EF30D2BA31B78004FD8A8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		029EF30F2BA31C9D004FD8A8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		029EF3122BA31E72004FD8A8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,9 @@
 		029EF2F92BA31B24004FD8A8 = {
 			isa = PBXGroup;
 			children = (
+				029EF30E2BA31C7A004FD8A8 /* Chapter01 */,
+				029EF30D2BA31B78004FD8A8 /* README.md */,
+				029EF30C2BA31B4B004FD8A8 /* Chapter02 */,
 				029EF3042BA31B25004FD8A8 /* C */,
 				029EF3032BA31B25004FD8A8 /* Products */,
 			);
@@ -57,9 +63,25 @@
 		029EF3042BA31B25004FD8A8 /* C */ = {
 			isa = PBXGroup;
 			children = (
-				029EF3052BA31B25004FD8A8 /* main.c */,
 			);
 			path = C;
+			sourceTree = "<group>";
+		};
+		029EF30C2BA31B4B004FD8A8 /* Chapter02 */ = {
+			isa = PBXGroup;
+			children = (
+				029EF3122BA31E72004FD8A8 /* README.md */,
+			);
+			path = Chapter02;
+			sourceTree = "<group>";
+		};
+		029EF30E2BA31C7A004FD8A8 /* Chapter01 */ = {
+			isa = PBXGroup;
+			children = (
+				029EF30F2BA31C9D004FD8A8 /* README.md */,
+				029EF3052BA31B25004FD8A8 /* 1_2.c */,
+			);
+			path = Chapter01;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				029EF3062BA31B25004FD8A8 /* main.c in Sources */,
+				029EF3062BA31B25004FD8A8 /* 1_2.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
